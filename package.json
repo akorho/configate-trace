@@ -1,0 +1,37 @@
+{
+  "name": "configate-trace",
+  "version": "0.0.1",
+  "description": "CLI tool to trace the source file for each property in a configate configuration setup",
+  "main": "dist/index.js",
+  "bin": {
+    "configate-trace": "./bin/configate-trace.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./bin/configate-trace.js",
+    "dev": "ts-node ./src/index.ts",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint src/**/*.ts",
+    "prepare": "npm run build"
+  },
+  "keywords": ["config", "configuration", "trace", "cli"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^11.1.0",
+    "chalk": "^4.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/jest": "^29.5.11",
+    "typescript": "^5.3.3",
+    "ts-node": "^10.9.2",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}

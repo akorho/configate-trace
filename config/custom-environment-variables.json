@@ -1,0 +1,9 @@
+{
+  "database": {
+    "password": "DB_PASSWORD",
+    "host": "DB_HOST"
+  },
+  "logging": {
+    "level": "LOG_LEVEL"
+  }
+} 
