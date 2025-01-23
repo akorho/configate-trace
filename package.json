@@ -1,6 +1,6 @@
 {
   "name": "configate-trace",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "CLI tool to trace the source file for each property in a configate configuration setup",
   "main": "dist/index.js",
   "bin": {
@@ -16,7 +16,12 @@
     "lint": "eslint src/**/*.ts",
     "prepare": "npm run build"
   },
-  "keywords": ["config", "configuration", "trace", "cli"],
+  "keywords": [
+    "config",
+    "configuration",
+    "trace",
+    "cli"
+  ],
   "author": "Aaro Korhonen",
   "license": "ISC",
   "repository": {
